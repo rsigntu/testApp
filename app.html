@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			App for getting user response
+		</title>
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="app.css">
+		<script type="text/javascript" src="operations.js"></script>
+	</head>
+	<body>
+		<div class="block">
+			<ul>
+				<li>
+					Student Name: <input type="text" id="sname">
+				</li>
+				<li>
+					Student Age:
+					<input type="text" id="sage">
+				</li>
+				<li>
+					Gender: 
+					<input type="radio" value="male" name="gender"> M
+					<input type="radio" value="Female" name="gender"> F
+				</li>
+				<li>
+					Country:
+					<select> 
+						<option>INDIA</option>
+						<option>CHINA</option>
+						<option>JAPAN</option>
+						<option>USA</option>
+					</select>
+				</li>
+				<li>
+					<input type="button" value="Register" onclick="readValues()" id="regDetails">
+					<input type="button" value="SAVE" id="saveDetails" style="display:none" onclick="saveUpdatedDetails()">
+				</li>
+			</ul>
+		</div>
+		<div class="block">
+			<table cellspacing="10" cellpadding="10">
+				<thead>
+					<tr>
+						<th>Sno</th>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Gender</th>
+						<th>Country</th>
+						<th>Operations</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+	</body>
+</html>

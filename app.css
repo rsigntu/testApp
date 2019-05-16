@@ -1,0 +1,16 @@
+li {
+	list-style: none;
+	background-color: #ccc;
+	margin: 5px;
+	padding: 5px;
+}
+
+ul {
+	border: 2px solid;
+	width: 500px;
+	margin: 10px auto;
+}
+
+table, td, tr, th {
+	border: 1px solid;
+}
